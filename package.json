@@ -1,5 +1,5 @@
 {
-  "name": "react_com_gulp",
+  "name": "react-gulp",
   "version": "1.0.0",
   "description": "Curso de React com Gulp",
   "main": "server.js",
@@ -11,7 +11,7 @@
     "gulp",
     "curso"
   ],
-  "author": "GuiFerreira",
+  "author": "Caio Dias",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
@@ -20,5 +20,8 @@
     "gulp-rename": "^1.2.2",
     "react": "^15.4.0",
     "react-dom": "^15.4.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
   }
 }
