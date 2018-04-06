@@ -1,6 +1,7 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
-//tudo o que nao comecar com ./ o sistema irá procurar dentro de node_modules
+//tudo o que NAO comecar com ./ o sistema irá procurar dentro de node_modules
+// ./ entra em um diretorio do mesmo nivel, ../ volta um diretorio
 import Titulo from './titulo/titulo';
 import Navbar from './navbar/navbar';
 import ListaCartao from './cartao/lista-cartao';
